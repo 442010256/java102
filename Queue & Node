@@ -1,0 +1,37 @@
+package com.company;
+
+public class Node<T>{
+    public T value;
+    public  Node next;
+public Node(T value){
+   this.value= value;
+}
+
+}
+
+
+
+package com.company;
+
+import java.util.ArrayList;
+
+public class Queue <T>{
+
+    public ArrayList<Node> Queue = new ArrayList<>();
+    Node last;
+    Node head;
+    public Queue(Node element) {
+    }
+    public Queue add(Node element) {
+        return this;
+    }
+public void print(){
+}
+public void pop(){
+}
+    public int size() {
+
+        return 0;
+    }
+
+}
