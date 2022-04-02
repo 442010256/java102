@@ -1,0 +1,13 @@
+Snake
+
+
++ Head : String
++ Tail : String
++ ate  : int
++ Snake color : String
++ Snake Speed : int
+
+
+
+
+Move Snake()
