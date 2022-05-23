@@ -1,0 +1,20 @@
+package com.company;
+
+public class Book {
+    String name;
+    int quantity;
+
+    public Book(String bookName,int bookQuantity) {
+
+   this.name = bookName;
+   this.quantity =bookQuantity ;
+
+    }
+
+    public Book() {
+
+
+
+    }
+}
+
