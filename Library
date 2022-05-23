@@ -1,0 +1,22 @@
+package com.company;
+import java.util.ArrayList;
+public class Library {
+ static    ArrayList<Book> a = new ArrayList<>();
+    public static void main(String[] args) {
+        Book x = new Book("programming",10);
+
+        a.add(new Book("programming",10));
+     
+System.out.println(a.get(0).name);
+        a.add(new Book("math",13));
+        System.out.println(a.get(1).name);
+    }
+    public  void   Loan(){
+    Book x = new Book();
+    x.name = "programming";
+    x.quantity =10;
+    a.add(x);
+
+}
+
+}
